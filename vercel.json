@@ -14,9 +14,10 @@
       ]
     },
     "backend": {
-      "root": "backend/",
-      "framework": "express"
-    }
+  "root": "backend/",
+  "framework": "express",
+  "installCommand": "npm install --workspaces=false --production=false"
+}
   },
   "rewrites": [
     {
