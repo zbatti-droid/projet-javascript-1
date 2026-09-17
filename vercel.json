@@ -15,12 +15,8 @@
     },
     "backend": {
       "root": "backend/",
-      "framework": "express",
-      "includeFiles": [
-        "node_modules/@prisma/client/**",
-        "node_modules/.prisma/client/**",
-        "prisma/**"
-      ]
+      "runtime": "container",
+      "entrypoint": "Dockerfile.vercel"
     }
   },
   "rewrites": [
