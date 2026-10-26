@@ -9,3 +9,8 @@ dist/
 .vscode/
 frontend/src/data/db.json
 backend/prisma/dev.db
+
+.vercel
+.env*
+
+!.env.example
